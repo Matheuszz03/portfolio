@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import { Link } from 'react-router-dom'
-import LogoSubtitle from '../../assets/images/logo-m2.png'
+// import LogoSubtitle from '../../assets/images/logo-m2.png'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss' 
 
