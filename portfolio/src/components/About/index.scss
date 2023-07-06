@@ -16,7 +16,8 @@
     animation-duration: 12s;
     transform-style: preserve-3d;
     transform-origin: 100px 100px 0;
-    margin-left: calc(50% - 100px);
+    // margin-left: calc(50% - 100px);
+    margin-left: 500px;
 
     div {
         position: absolute;
@@ -77,4 +78,25 @@
     83% {
         transform: rotateX(90deg);
     }
+}
+
+@media screen and (max-width: 768px) {
+  .cubespinner {
+    display: none;
+  }
+}
+@media screen and (max-width: 980px) {
+  .cubespinner {
+    margin-left: 300px;
+  }
+}
+@media screen and (max-width: 1128px) {
+  .cubespinner {
+    margin-left: 300px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .cubespinner {
+    margin-left: 700px;
+  }
 }

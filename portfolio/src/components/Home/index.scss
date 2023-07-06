@@ -5,8 +5,9 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 60%;
         max-height: 90%;
+        margin-left: 60px;
     }
 
     h1 {
@@ -39,13 +40,13 @@
             opacity: .6;
         }
 
-        img {
-            width: 50px;
-            margin-left: 20px;
-            height: auto;
-            animation: rotateIn 1s linear both;
-            animation-delay: 1.4s;
-        }
+        // img {
+        //     width: 50px;
+        //     margin-left: 20px;
+        //     height: auto;
+        //     animation: rotateIn 1s linear both;
+        //     animation-delay: 1.4s;
+        // }
     }
 
     h2 {

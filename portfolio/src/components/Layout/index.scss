@@ -49,8 +49,11 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 35%;
+        width: 50%;
         vertical-align: middle;
+        display: table-cell;
+        max-height: 90%;
+        margin-left: 80px;
 
         h1 {
             font-size: 53px;
@@ -89,7 +92,7 @@
         }
 
         p {
-            font-size: 13px;
+            font-size: 15px;
             color: #fff;
             font-family: sans-serif;
             font-weight: 300;
